@@ -1,0 +1,2 @@
+Domain,Anchor,NInstances,NMethods,FriedmanChiSquare,FriedmanP,KendallW,AnchorAvgRank
+FIR_EXTERNAL,A-C1,8,10,66.0272727272727,9.10310333977912e-11,0.917045454545454,1

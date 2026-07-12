@@ -1,0 +1,82 @@
+MPHBS PUBLIC REPRODUCIBILITY PACKAGE INVENTORY
+Generated: 2026-07-10
+
+Package path: /Users/emilioylore/Documents/Doctorado/experimentos_2026/MPHBS_Ultima_Oportunidad/00_REVISION_KNOSYS_ACTIVA/EXPERIMENTO_BEST_RANK_SEEDS_PAREADAS_20260701/00_MANUSCRITO_ACTIVO_REVIEWERS_20260702/05_reproducibility_package_public_lean
+Package type: lean public release package
+Package size: 199.9 MB
+Files: 225 including this inventory and the checksum manifest
+Directories: 49
+Saved campaigns: 6
+Final workspaces: 6
+Completed optimization tasks: 19800
+Manuscript figures: 4 PNG at 400 dpi and 4 editable MATLAB FIG files
+Optional checkpoint archive: ../05_optional_checkpoints_archive_public
+
+FINAL CONFIGURATIONS
+CEC2022: B-C1
+FIR: A-C1
+
+CRITICAL PUBLIC ENTRY POINTS
+code/MPHBS_main.m
+code/MPHBS_random_mirror.m
+code/MPHB_baseline.m
+code/run_all_manuscript_experiments.m
+code/run_CEC2022_sensitivity_common_seeds.m
+code/run_FIR_sensitivity_common_seeds.m
+code/run_CEC2022_ablation_BC1_common_seeds.m
+code/run_FIR_ablation_AC1_common_seeds.m
+code/run_CEC2022_external_BC1_common_seeds.m
+code/run_FIR_external_AC1_common_seeds.m
+code/validate_campaign_outputs.m
+code/validate_paired_seed_results.m
+code/validate_result_files.py
+code/export_official_block_statistics.m
+code/audit_final_fe_budgets.m
+code/regenerate_manuscript_figures.m
+code/generate_package_manifest.py
+
+SIX CAMPAIGNS
+results/CEC2022_sensitivity_common_seeds
+results/FIR_sensitivity_common_seeds
+results/CEC2022_ablation_BC1_common_seeds
+results/FIR_ablation_AC1_common_seeds
+results/CEC2022_external_BC1_common_seeds
+results/FIR_external_AC1_common_seeds
+
+CEC2022 INTERFACE
+code/cec22_test_func.mexmaca64
+Mach-O 64-bit bundle, arm64
+Official input data are under code/input_data.
+
+VALIDATION STATUS
+Static MATLAB parse/dependency validation: PASS
+CSV paired-block validation: PASS
+MATLAB final-workspace validation: PASS
+Exact CEC2022 anchor agreement: PASS
+Exact FIR anchor agreement: PASS
+Python seed/WTL/Wilcoxon/Holm reconstruction: PASS
+Official instance-level Wilcoxon/Holm reconstruction: PASS
+Friedman block analysis: PASS
+Kendall's W reconstruction for six campaigns: PASS
+Observed CEC2022 FE range (all final campaigns): 199614--200000
+Observed FIR FE range (all final campaigns): 149718--150000
+CSV/MAT FE consistency audit: PASS
+Full clean-package execution check: PASS on 2026-07-10
+No deprecated public runner/result names: PASS
+
+PUBLIC PACKAGE POLICY
+Intermediate checkpoint folders and partial workspaces are not required to verify
+the reported outputs and are stored separately in ../05_optional_checkpoints_archive_public.
+The lean package retains raw run-level CSV files, final workspaces, statistical
+exports, LaTeX tables, manuscript figures, source code, benchmark definitions,
+and validation scripts.
+
+OFFICIAL STATISTICS
+statistics_official_block_level/official_paired_wilcoxon_by_instance.csv
+statistics_official_block_level/official_global_by_instance_blocks.csv
+statistics_official_block_level/official_friedman_kendall_omnibus.csv
+statistics_official_block_level/official_instance_ranks.csv
+
+documentation/VALIDATION_REPORT.md documents the checks and omnibus values.
+documentation/FE_BUDGET_AUDIT.txt documents observed FE usage.
+FILE_MANIFEST_SHA256.txt records SHA-256 checksums for package integrity.

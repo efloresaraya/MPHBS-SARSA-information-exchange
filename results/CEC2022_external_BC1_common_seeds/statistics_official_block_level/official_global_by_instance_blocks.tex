@@ -1,0 +1,20 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{CEC2022\_EXTERNAL comparison using benchmark instances as independent blocks (anchor = B-C1). Friedman $p=4.454e-11$ and Kendall's $W=0.626$. Post hoc $p$-values are Holm-adjusted across competitors.}
+\begin{tabular}{llcccccc}
+\hline
+Method & Role & W/T/L & Anchor rank & Comp. rank & Holm $p$ & Reject & Sig. inst. A/C \\
+\hline
+MPHB & BASELINE & 6/0/6 & 2.750 & 3.000 & 1.000e+00 & 0 & 4/0 \\
+HBA & PARENT & 12/0/0 & 2.750 & 7.750 & 3.660e-04 & 1 & 9/0 \\
+MPA & PARENT & 8/0/4 & 2.750 & 3.250 & 1.000e+00 & 0 & 4/0 \\
+EODE & EXTERNAL & 8/1/3 & 2.750 & 4.000 & 9.356e-01 & 0 & 3/2 \\
+RLTLBO & EXTERNAL & 11/0/1 & 2.750 & 7.083 & 2.731e-03 & 1 & 11/0 \\
+QQLMPA & EXTERNAL & 10/0/2 & 2.750 & 5.167 & 2.528e-01 & 0 & 7/0 \\
+GWO & EXTERNAL & 12/0/0 & 2.750 & 8.833 & 7.723e-06 & 1 & 11/0 \\
+FDB-TLABC & EXTERNAL & 8/1/3 & 2.750 & 4.417 & 7.101e-01 & 0 & 7/1 \\
+FTO & EXTERNAL & 12/0/0 & 2.750 & 8.750 & 9.668e-06 & 1 & 12/0 \\
+\hline
+\end{tabular}
+\end{table*}

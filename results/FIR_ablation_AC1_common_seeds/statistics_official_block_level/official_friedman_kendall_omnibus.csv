@@ -1,0 +1,2 @@
+Domain,Anchor,NInstances,NMethods,FriedmanChiSquare,FriedmanP,KendallW,AnchorAvgRank
+FIR_ABLATION,AS-C1,8,6,33.9285714285714,2.46024775170689e-06,0.848214285714286,1.75

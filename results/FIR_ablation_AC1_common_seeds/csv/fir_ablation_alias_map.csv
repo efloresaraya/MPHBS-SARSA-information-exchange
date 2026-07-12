@@ -1,0 +1,7 @@
+Alias,Method,Definition
+AS-C1,MPHBS_SARSA_C1_K03_Ni09_AFTER_W050_G300_R250,"SARSA anchor | K=3, Ni=9, AFTER | w_best=0.050, gamma=0.30, rho=0.25"
+AR-C1,MPHBS_RANDOM_C1_K03_Ni09_AFTER_W050_G300_R250,"RANDOM matched | K=3, Ni=9, AFTER | w_best=0.050, gamma=0.30, rho=0.25"
+R-best,MPHBS_RANDOM_C2_K03_Ni09_BEFORE_W025_G300_R250,"RANDOM best | K=3, Ni=9, BEFORE | w_best=0.025, gamma=0.30, rho=0.25"
+MPHB,MPHB_BASE,"MPHB baseline"
+HBA,HBA_BASE,"HBA parent algorithm"
+MPA,MPA_BASE,"MPA parent algorithm"

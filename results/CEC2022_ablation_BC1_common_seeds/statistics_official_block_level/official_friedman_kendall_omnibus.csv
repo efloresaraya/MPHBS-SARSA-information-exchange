@@ -1,0 +1,2 @@
+Domain,Anchor,NInstances,NMethods,FriedmanChiSquare,FriedmanP,KendallW,AnchorAvgRank
+CEC2022_ABLATION,BS-C1,12,6,31.8095238095238,6.48016917065787e-06,0.53015873015873,2

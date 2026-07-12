@@ -1,0 +1,20 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{FIR\_EXTERNAL comparison using benchmark instances as independent blocks (anchor = A-C1). Friedman $p=9.103e-11$ and Kendall's $W=0.917$. Post hoc $p$-values are Holm-adjusted across competitors.}
+\begin{tabular}{llcccccc}
+\hline
+Method & Role & W/T/L & Anchor rank & Comp. rank & Holm $p$ & Reject & Sig. inst. A/C \\
+\hline
+MPHB & BASELINE & 8/0/0 & 1.000 & 3.875 & 1.726e-01 & 0 & 8/0 \\
+HBA & PARENT & 8/0/0 & 1.000 & 4.500 & 8.311e-02 & 0 & 8/0 \\
+MPA & PARENT & 8/0/0 & 1.000 & 3.125 & 3.208e-01 & 0 & 8/0 \\
+EODE & EXTERNAL & 8/0/0 & 1.000 & 2.625 & 3.208e-01 & 0 & 6/0 \\
+RLTLBO & EXTERNAL & 8/0/0 & 1.000 & 8.625 & 3.785e-06 & 1 & 8/0 \\
+QQLMPA & EXTERNAL & 8/0/0 & 1.000 & 6.750 & 8.741e-04 & 1 & 8/0 \\
+GWO & EXTERNAL & 8/0/0 & 1.000 & 8.625 & 3.785e-06 & 1 & 8/0 \\
+FDB-TLABC & EXTERNAL & 8/0/0 & 1.000 & 6.375 & 1.922e-03 & 1 & 8/0 \\
+FTO & EXTERNAL & 8/0/0 & 1.000 & 9.500 & 1.770e-07 & 1 & 8/0 \\
+\hline
+\end{tabular}
+\end{table*}

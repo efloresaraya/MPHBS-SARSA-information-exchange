@@ -1,0 +1,27 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{FIR\_SENSITIVITY comparison using benchmark instances as independent blocks (anchor = A-C1). Friedman $p=8.072e-11$ and Kendall's $W=0.639$. Post hoc $p$-values are Holm-adjusted across competitors.}
+\begin{tabular}{llcccccc}
+\hline
+Method & Role & W/T/L & Anchor rank & Comp. rank & Holm $p$ & Reject & Sig. inst. A/C \\
+\hline
+B-C1 & SARSA & 8/0/0 & 4.750 & 12.125 & 4.188e-02 & 1 & 1/0 \\
+RB-C1 & RANDOM & 5/0/3 & 4.750 & 8.750 & 1.000e+00 & 0 & 0/0 \\
+B-C2 & SARSA & 8/0/0 & 4.750 & 15.250 & 4.803e-04 & 1 & 2/0 \\
+RB-C2 & RANDOM & 4/0/4 & 4.750 & 3.750 & 1.000e+00 & 0 & 0/0 \\
+B-C3 & SARSA & 8/0/0 & 4.750 & 13.250 & 9.897e-03 & 1 & 1/0 \\
+RB-C3 & RANDOM & 5/0/3 & 4.750 & 8.750 & 1.000e+00 & 0 & 0/0 \\
+B-C4 & SARSA & 8/0/0 & 4.750 & 14.125 & 2.867e-03 & 1 & 1/0 \\
+RB-C4 & RANDOM & 5/0/3 & 4.750 & 4.625 & 1.000e+00 & 0 & 0/0 \\
+RA-C1 & RANDOM & 6/0/2 & 4.750 & 7.750 & 1.000e+00 & 0 & 0/0 \\
+A-C2 & SARSA & 6/0/2 & 4.750 & 7.625 & 1.000e+00 & 0 & 1/0 \\
+RA-C2 & RANDOM & 4/0/4 & 4.750 & 4.750 & 1.000e+00 & 0 & 0/0 \\
+A-C3 & SARSA & 6/0/2 & 4.750 & 6.375 & 1.000e+00 & 0 & 0/0 \\
+RA-C3 & RANDOM & 6/0/2 & 4.750 & 7.750 & 1.000e+00 & 0 & 0/0 \\
+A-C4 & SARSA & 5/0/3 & 4.750 & 6.375 & 1.000e+00 & 0 & 0/0 \\
+RA-C4 & RANDOM & 6/0/2 & 4.750 & 10.000 & 4.135e-01 & 0 & 0/0 \\
+MPHB & BASELINE & 8/0/0 & 4.750 & 17.000 & 1.958e-05 & 1 & 8/0 \\
+\hline
+\end{tabular}
+\end{table*}

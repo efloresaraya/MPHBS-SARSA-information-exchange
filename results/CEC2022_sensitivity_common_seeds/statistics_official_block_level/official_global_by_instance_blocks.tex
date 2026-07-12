@@ -1,0 +1,27 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{CEC2022\_SENSITIVITY comparison using benchmark instances as independent blocks (anchor = B-C1). Friedman $p=1.137e-10$ and Kendall's $W=0.421$. Post hoc $p$-values are Holm-adjusted across competitors.}
+\begin{tabular}{llcccccc}
+\hline
+Method & Role & W/T/L & Anchor rank & Comp. rank & Holm $p$ & Reject & Sig. inst. A/C \\
+\hline
+RB-C1 & RANDOM & 11/0/1 & 3.167 & 11.000 & 1.593e-03 & 1 & 7/1 \\
+B-C2 & SARSA & 8/0/4 & 3.167 & 4.667 & 1.000e+00 & 0 & 0/0 \\
+RB-C2 & RANDOM & 11/0/1 & 3.167 & 9.750 & 7.031e-03 & 1 & 8/1 \\
+B-C3 & SARSA & 8/0/4 & 3.167 & 3.917 & 1.000e+00 & 0 & 0/0 \\
+RB-C3 & RANDOM & 11/0/1 & 3.167 & 11.000 & 1.593e-03 & 1 & 7/1 \\
+B-C4 & SARSA & 8/0/4 & 3.167 & 4.333 & 1.000e+00 & 0 & 0/0 \\
+RB-C4 & RANDOM & 11/0/1 & 3.167 & 11.250 & 1.146e-03 & 1 & 7/0 \\
+A-C1 & SARSA & 11/0/1 & 3.167 & 10.083 & 4.761e-03 & 1 & 7/1 \\
+RA-C1 & RANDOM & 12/0/0 & 3.167 & 11.750 & 4.701e-04 & 1 & 8/0 \\
+A-C2 & SARSA & 11/0/1 & 3.167 & 11.167 & 1.251e-03 & 1 & 7/1 \\
+RA-C2 & RANDOM & 12/0/0 & 3.167 & 10.333 & 4.066e-03 & 1 & 9/0 \\
+A-C3 & SARSA & 10/0/2 & 3.167 & 10.333 & 4.066e-03 & 1 & 8/1 \\
+RA-C3 & RANDOM & 12/0/0 & 3.167 & 11.750 & 4.701e-04 & 1 & 8/0 \\
+A-C4 & SARSA & 12/0/0 & 3.167 & 12.917 & 3.602e-05 & 1 & 9/0 \\
+RA-C4 & RANDOM & 12/0/0 & 3.167 & 10.500 & 3.374e-03 & 1 & 8/0 \\
+MPHB & BASELINE & 6/0/6 & 3.167 & 5.083 & 1.000e+00 & 0 & 4/0 \\
+\hline
+\end{tabular}
+\end{table*}

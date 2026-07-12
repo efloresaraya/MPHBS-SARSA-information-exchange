@@ -1,0 +1,11 @@
+Alias,Method,Definition
+A-C1,FIR_PROPOSED_MPHBS_C1_K03_Ni09_AFTER_W050_G300_R250,"Final MPHBS for FIR | K=3, Ni=9, AFTER | w_best=0.050, gamma=0.30, rho=0.25"
+MPHB,MPHB_BASE,"MPHB internal hybrid baseline"
+HBA,HBA_BASE,"HBA parent algorithm"
+MPA,MPA_BASE,"MPA parent algorithm"
+EODE,EODE_BASE,"EODE external hybrid EO-DE comparator"
+RLTLBO,RLTLBO_BASE,"RLTLBO external Q-learning TLBO comparator"
+QQLMPA,QQLMPA_BASE,"QQLMPA external quasi-opposition Q-learning MPA comparator"
+GWO,GWO_BASE,"GWO external comparator"
+FDB-TLABC,FDB_TLABC_BASE,"FDB-TLABC external comparator"
+FTO,FTO_BASE,"FTO external comparator"

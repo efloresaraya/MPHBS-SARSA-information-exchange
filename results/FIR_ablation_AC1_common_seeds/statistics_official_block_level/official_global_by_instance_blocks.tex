@@ -1,0 +1,16 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{FIR\_ABLATION comparison using benchmark instances as independent blocks (anchor = AS-C1). Friedman $p=2.460e-06$ and Kendall's $W=0.848$. Post hoc $p$-values are Holm-adjusted across competitors.}
+\begin{tabular}{llcccccc}
+\hline
+Method & Role & W/T/L & Anchor rank & Comp. rank & Holm $p$ & Reject & Sig. inst. A/C \\
+\hline
+AR-C1 & MATCHED\_RANDOM & 6/0/2 & 1.750 & 2.500 & 8.454e-01 & 0 & 0/0 \\
+R-best & BEST\_RANDOM & 4/0/4 & 1.750 & 1.750 & 1.000e+00 & 0 & 0/0 \\
+MPHB & BASELINE & 8/0/0 & 1.750 & 5.125 & 1.234e-03 & 1 & 8/0 \\
+HBA & PARENT & 8/0/0 & 1.750 & 5.625 & 1.717e-04 & 1 & 8/0 \\
+MPA & PARENT & 8/0/0 & 1.750 & 4.250 & 2.258e-02 & 1 & 8/0 \\
+\hline
+\end{tabular}
+\end{table*}
