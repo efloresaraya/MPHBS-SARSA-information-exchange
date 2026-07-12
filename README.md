@@ -101,6 +101,27 @@ The complete package was re-executed from a clean results directory on
 2026-07-10. The regenerated outputs match the saved public outputs, excluding
 wall-clock time by design.
 
+## Citation
+
+Flores, E., & Olivares, R. (2026). efloresaraya/MPHBS-SARSA-information-exchange:
+MPHBS v1.0.0 - Reproducibility Package for SARSA-Guided HBA-MPA Information
+Exchange (Version v1.0.0) [Computer software]. Zenodo.
+https://doi.org/10.5281/zenodo.21326361
+If you use this package, please cite it as:
+
+```bibtex
+@software{FloresOlivares2026MPHBS,
+  author    = {Flores, Emilio and Olivares, Rodrigo},
+  title     = {{efloresaraya/MPHBS-SARSA-information-exchange: MPHBS v1.0.0 - Reproducibility Package for SARSA-Guided HBA-MPA Information Exchange}},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {v1.0.0},
+  doi       = {10.5281/zenodo.21326361},
+  url       = {https://doi.org/10.5281/zenodo.21326361},
+  note      = {Computer software}
+}
+```
+
 ## License
 
 This repository is released under the MIT License.
