@@ -395,7 +395,7 @@ function [Pg, Best_P, Conv] = MPHBS_main(N, T, LB, UB, Dim, F_obj, K, Ni, rho_su
             val = F_obj(values_next);
             reward = get_reward(f_curr, val);
 
-            % Relaxed acceptance preserves occasional exploratory transitions.
+            % Relaxed acceptance rule: paper Eqs. (56)-(59).
             prog_local = (episodes - 1) / max(1, T_total - 1);
             if val < f_curr
                 accepted = true;
@@ -410,7 +410,7 @@ function [Pg, Best_P, Conv] = MPHBS_main(N, T, LB, UB, Dim, F_obj, K, Ni, rho_su
                 accepted = (rand() < prob_aceptacion);
             end
 
-            % Update Q only on active dimensions: paper Eqs. (56)-(57).
+            % Update Q only on active dimensions: paper Eqs. (60)-(61).
             for col = active_dims
                 predict = Q(col, list_rows(col), list_ch(col));
 

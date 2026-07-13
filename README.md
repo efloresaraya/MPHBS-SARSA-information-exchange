@@ -103,10 +103,6 @@ wall-clock time by design.
 
 ## Citation
 
-Flores, E., & Olivares, R. (2026). efloresaraya/MPHBS-SARSA-information-exchange:
-MPHBS v1.0.0 - Reproducibility Package for SARSA-Guided HBA-MPA Information
-Exchange (Version v1.0.0) [Computer software]. Zenodo.
-https://doi.org/10.5281/zenodo.21326361
 If you use this package, please cite it as:
 
 ```bibtex
